@@ -1,0 +1,25 @@
+.resultsContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px;
+}
+.eachContainer {
+  width: 300px;
+  padding: 40px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  border-radius: 5px;
+}
+.thumbnail {
+  width: 80%;
+  height: auto;
+}
